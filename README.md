@@ -6,4 +6,4 @@ Tasks Completed for #CODSOFT internship
 
 2. Task 2 : https://hari18102003.github.io/CODSOFT/tree/main/landingpage
 
-3. Task 3 : https://hari18102003.github.io/CODSOFT/tree/main/calculator
+3. Task 3 : https://hari18102003.github.io/CODSOFT/tree/main/portfolio
