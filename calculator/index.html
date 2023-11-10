@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - Calculate Math</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="calculator">
+            <input type="text" id="display" disabled>
+            <div class="numbers">
+                <div class="block" onclick="addToDisplay(1)">1</div>
+                <div class="block" onclick="addToDisplay(2)">2</div>
+                <div class="block" onclick="addToDisplay(3)">3</div>
+                <div class="block" onclick="addToDisplay(4)">4</div>
+                <div class="block" onclick="addToDisplay(5)">5</div>
+                <div class="block" onclick="addToDisplay(6)">6</div>
+                <div class="block" onclick="addToDisplay(7)">7</div>
+                <div class="block" onclick="addToDisplay(8)">8</div>
+                <div class="block" onclick="addToDisplay(9)">9</div>
+                <div class="block" onclick="addToDisplay(0)">0</div>
+                <div class="block" onclick="addOperation('+')">+</div>
+                <div class="block" onclick="addOperation('-')">-</div>
+                <div class="block" onclick="addOperation('*')">*</div>
+                <div class="block" onclick="addOperation('/')">/</div>
+                <div class="block" onclick="clearDisplay()">clr</div>
+            </div>
+            <div class="eql" onclick="calculateResult()">=</div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
